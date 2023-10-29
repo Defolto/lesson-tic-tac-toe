@@ -2,14 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <p id="text1">Любой текст для тултипа</p>
-    <p id="text2">Второй абзац</p>
+    <div class="wins">
+        <p>×: <span id="winsX">0</span></p>
+        <p>○: <span id="winsO">0</span></p>
+    </div>
+    <p>Сейчас ход: <span id="step">X</span></p>
+    <div class="pole">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
     <script src="./main.js"></script>
 </body>
 </html>
